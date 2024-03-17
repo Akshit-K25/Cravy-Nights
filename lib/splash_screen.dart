@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF0C95F),
+      backgroundColor: Color(0xFF1D0E58),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -51,11 +51,11 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             SizedBox(height: 20),
             Text(
-              'Night Canteen',
+              'Cravy Nights',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.black,
+                color: Colors.white,
               ),
             ),
             SizedBox(height: 20),
@@ -64,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 height: 35,
                 width: 35,
                 child: CircularProgressIndicator(
-                  valueColor: AlwaysStoppedAnimation<Color>(Colors.redAccent),
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.yellowAccent),
                 ),
               ),
           ],
