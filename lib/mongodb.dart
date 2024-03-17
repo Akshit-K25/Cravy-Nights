@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:async' show Timer;
 
 const MONGO_URL =
-    "mongodb+srv://akshitk2518:akshitk2518@cluster0.ruiyppc.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://akshitk2518:akshitk1927@cluster0.ruiyppc.mongodb.net/?retryWrites=true&w=majority";
 
 class MongoDatabase {
   static void Function(Order)? _retryCallback;

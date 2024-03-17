@@ -30,17 +30,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  qr_flutter: ^4.1.0
   http: ^1.2.1
   mongo_dart: ^0.10.0
   provider: ^6.1.1
   connectivity_plus: ^5.0.2
-  webview_flutter: ^4.7.0
   shared_preferences: ^2.2.2
   flutter_native_splash: ^2.3.10
-  rive: ^0.13.0
-  bson: ^5.0.3
-  sembast: ^3.6.0
 
 
   # The following adds the Cupertino Icons font to your application.

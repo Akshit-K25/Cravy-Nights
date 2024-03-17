@@ -103,6 +103,7 @@ class _ContinuePageState extends State<ContinuePage> {
         'amount': amount * 100,
         'name': 'Night Canteen',
         'description': 'Payment for selected items',
+        'timeout': 45,
         'prefill': {'contact': '9347572857', 'email': 'akshit2518@gmail.com'},
         'external': {
           'wallets': ['paytm']

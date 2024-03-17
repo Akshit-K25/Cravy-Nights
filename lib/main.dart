@@ -134,7 +134,7 @@ class _MyNightCanteenScreenState extends State<MyNightCanteenScreen> {
     orderQuantities.forEach((item, quantity) {
       double? itemPrice = menuItems[item];
       if (itemPrice != null) {
-        total += itemPrice * quantity!;
+        total += itemPrice * quantity;
       }
     });
     return total;
@@ -598,6 +598,15 @@ class _MyNightCanteenScreenState extends State<MyNightCanteenScreen> {
                     onTap: () {
                       Navigator.pushReplacementNamed(context, LoginPage.routeName);
                     },
+                  ),
+                  SizedBox(height: 370),
+                  Text(
+                    'By Cravy Nights',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF1D0E58),
+                    ),
                   ),
                 ],
               ),
